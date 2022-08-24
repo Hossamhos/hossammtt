@@ -24,24 +24,24 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 
 
 @app.on_message(
-    command(["سورس مين","سورس","السورس","يا سورس"])
+    command(["سورس حسام","سورس","السورس","يا سورس"])
     & ~filters.edited
 )
-async def vambir(client: Client, message: Message):
+async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/music_rio_bot",
-        caption=f"""[◍ 𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆 𝒌𝒂𝒓𝒎𝒂𝒏 √🖥](https://t.me/YDDCJ)\n\n[◍ 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆 𝒐𝒏 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 √🌐](https://t.me/YDDCJ)\n\n[◍ 𝒇𝒐𝒍𝒍𝒐𝒘 𝒕𝒉𝒆 𝒃𝒖𝒕𝒕𝒐𝒏𝒔 𝒃𝒆𝒍𝒐𝒘 √🔮](https://t.me/YDDCJ)\n\n||[◍ #،𝙑𝒗 𝙄𝒊 𝙍𝒓 𝙐𝒖 𝙎𝒔 💎⛓ √](https://t.me/VR_LA)||""",
+        photo=f"https://te.legra.ph/file/46fa55b49b85c084159ce.png",
+        caption=f"""[ٓ❍ | 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝒔𝒐𝒖𝒓𝒄𝒆 𝒉𝒐𝒔𝒔𝒂𝒎 .](https://t.me/SOU_LOFFY_RCE)\n\n[❍ | 𝒉𝒐𝒔𝒔𝒂𝒎 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆 𝒐𝒏 𝒕𝒆𝒍𝒆 .](https://t.me/XxvprxX)\n\n[❍ | 𝐅𝐨𝐥𝐥𝐨𝐰 𝐓𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐁𝐞𝐥𝐨𝐰 .](https://t.me/SOU_LOFFY_RCE)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "『 𝗩𝗜𝗥𝗨𝗦 』", url=f"https://t.me/VR_LA"), 
+                        "ᯓ˹ حــــســــام الــــهــــولـــنــــدي ✶ ✶ 🇳🇱）⛧", url=f"https://t.me/H_OS_S_AM"), 
                 ],[
                     InlineKeyboardButton(
-                        "『 𝗦𝗢𝗨𝗥𝗖𝗘 𝗞𝗔𝗥𝗠𝗔𝗡 』", url=f"https://t.me/YDDCJ"),
+                        "𝒔𝒐𝒖𝒓𝒄𝒆«𝒉𝒐𝒔𝒔𝒂𝒎🖥", url=f"https://t.me/SOU_LOFFY_RCE"),
                 ],[
                     InlineKeyboardButton(
-                        "اضغط لاضافه البوت لمجموعتك✅.", url=f"https://t.me/music_rio_bot?startgroup=true"),
+                        "اضغط لاضافه البوت لمجموعتك✅.", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],
 
             ]
