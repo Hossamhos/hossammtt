@@ -53,11 +53,6 @@
         "value": "",
         "required": true
       },
-      "STRING_SESSION2": {
-        "description": "A Pyrogram String Session. two.",
-        "value": "",
-        "required": true
-      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
@@ -74,13 +69,13 @@
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
+        "description": "اوعاك تغير حاجه",
         "value": "https://github.com/Devmhmd/virus-yukki",
         "required": true
       },
       "UPSTREAM_BRANCH": {
-        "description": "Upstream Repo's Branch Name",
-        "value": "master",
+        "description": "اوعاك تغير حاجه",
+        "value": "main",
         "required": true
         },
       "START_IMG_URL": {
