@@ -46,17 +46,17 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/YDDCJ"
+                text=_["PL_B_12"], url=f"https://t.me/SOU_LOFFY_RCE"
             ),
         ],
         [    
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/VR_LA"
+                text=_["PL_B_13"], url=f"https://t.me/H_OS_S_AM"
             ),
         ],        
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], url=f"https://t.me/music_rio_bot?startgroup=true",
+                text=_["PL_B_3"], url=f"https://t.me/heb_a_bot?startgroup=true",
             ),
         ],
     ]
@@ -96,17 +96,17 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/YDDCJ"
+                text=_["PL_B_12"], url=f"https://t.me/SOU_LOFFY_RCE"
             ),
         ],        
         [    
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/VR_LA"
+                text=_["PL_B_13"], url=f"https://t.me/H_OS_S_AM"
             ),
         ],        
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], url=f"https://t.me/music_rio_bot?startgroup=true",
+                text=_["PL_B_3"], url=f"https://t.me/heb_a_bot?startgroup=true",
             ),
         ],
     ]
@@ -121,7 +121,7 @@ def telegram_markup(_, chat_id):
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], url=f"https://t.me/music_rio_bot?startgroup=true",
+                text=_["PL_B_3"], url=f"https://t.me/heb_a_bot?startgroup=true",
             ),
         ],
     ]
@@ -145,12 +145,12 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/YDDCJ"
+                text=_["PL_B_12"], url=f"https://t.me/SOU_LOFFY_RCE"
             ),
         ],
         [    
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/VR_LA"
+                text=_["PL_B_13"], url=f"https://t.me/H_OS_S_AM"
             ),            
         ],
         [
