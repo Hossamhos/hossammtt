@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by SOU_LOFFY_RCE@Github, < https://github.com/SOU_LOFFY_RCE >.
+# Copyright (C) 2021-2022 by UUOF0@Github, < https://github.com/UUOF0 >.
 #
-# This file is part of < https://github.com/SOU_LOFFY_RCE/YukkiMusicBot > project,
+# This file is part of < https://github.com/UUOF0/YukkiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/SOU_LOFFY_RCE/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/UUOF0/YukkiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -57,9 +57,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("SOU_LOFFY_RCE")
-                await self.one.join_chat("alamaalhlwa")
-                await self.one.join_chat("gkjkkjgjjgjkjk")
+                await self.one.join_chat("UUOF0")
+                await self.one.join_chat("XxvprxX")
+                await self.one.join_chat("TESTVAMBIR")
             except:
                 pass
             assistants.append(1)
@@ -88,9 +88,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("SOU_LOFFY_RCE")
-                await self.two.join_chat("alamaalhlwa")
-                await self.two.join_chat("gkjkkjgjjgjkjk")
+                await self.two.join_chat("UUOF0")
+                await self.two.join_chat("XxvprxX")
+                await self.two.join_chat("TESTVAMBIR")
             except:
                 pass
             assistants.append(2)
@@ -119,9 +119,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("SOU_LOFFY_RCE")
-                await self.three.join_chat("alamaalhlwa")
-                await self.three.join_chat("gkjkkjgjjgjkjk")
+                await self.three.join_chat("UUOF0")
+                await self.three.join_chat("XxvprxX")
+                await self.three.join_chat("TESTVAMBIR")
             except:
                 pass
             assistants.append(3)
@@ -150,9 +150,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("SOU_LOFFY_RCE")
-                await self.four.join_chat("alamaalhlwa")
-                await self.four.join_chat("gkjkkjgjjgjkjk")
+                await self.four.join_chat("UUOF0")
+                await self.four.join_chat("XxvprxX")
+                await self.four.join_chat("TESTVAMBIR")
             except:
                 pass
             assistants.append(4)
@@ -181,9 +181,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("SOU_LOFFY_RCE")
-                await self.five.join_chat("alamaalhlwa")
-                await self.five.join_chat("gkjkkjgjjgjkjk")
+                await self.five.join_chat("UUOF0")
+                await self.five.join_chat("XxvprxX")
+                await self.five.join_chat("TESTVAMBIR")
             except:
                 pass
             assistants.append(5)
