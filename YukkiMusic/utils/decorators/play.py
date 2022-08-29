@@ -32,7 +32,7 @@ def PlayWrapper(command):
         if PRIVATE_BOT_MODE == str(True):
             if not await is_served_private_chat(message.chat.id):
                 await message.reply_text(
-                    "Private Music Bot\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                    "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
                 )
                 return await app.leave_chat(message.chat.id)
         if await is_commanddelete_on(message.chat.id):
@@ -97,8 +97,8 @@ def PlayWrapper(command):
                 return await message.reply_text(_["cplay_4"])
             channel = chat.title
         else:
-            chat_id = message.chat.
-channel = None
+            chat_id = message.chat.id
+            channel = None
         playmode = await get_playmode(message.chat.id)
         playty = await get_playtype(message.chat.id)
         if playty != "Everyone":
